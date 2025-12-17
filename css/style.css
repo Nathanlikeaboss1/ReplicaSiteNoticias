@@ -1,57 +1,76 @@
-        h1 {
-             font-size: 38px;
-             font-family: serif, Sans-Serif;
-         }
+            h1 {
+                font-size: 38px;
+                font-family: serif, Sans-Serif;
+            }
 
-         #button1 {
-             background-color: black;
-             color: white;
-             font-size: 20px;
-             border: none;
-             cursor: pointer;
-             padding: 6px 12px;
-         }
+            #button1 {
+                background-color: black;
+                color: white;
+                font-size: 20px;
+                border: none;
+                cursor: pointer;
+                padding: 6px 12px;
+            }
 
-         #button2 {
-             background-color: rgb(255, 255, 255);
-             color: black;
-             font-size: 20px;
-             border: none;
-             cursor: pointer;
-             padding: 6px 12px;
-             font-weight: bolder;
-         }
+            #button2 {
+                background-color: rgb(255, 255, 255);
+                color: black;
+                font-size: 20px;
+                border: none;
+                cursor: pointer;
+                padding: 6px 12px;
+                font-weight: bolder;
+            }
 
-         p {
-             font: 32px Serif, Sans-Serif;
-         }
+            p {
+                font: 32px Serif, Sans-Serif;
+            }
 
-         div button {
-             font: 100% Arial, Sans-Serif;
-             font-weight: bold;
-             background-color: rgb(255, 255, 255);
-             color: black;
-             font-size: 18px;
-             border: none;
-             cursor: pointer;
-             padding: 8px 16px;
-         }
+            div button {
+                font: 100% Arial, Sans-Serif;
+                font-weight: bold;
+                background-color: rgb(255, 255, 255);
+                color: black;
+                font-size: 18px;
+                border: none;
+                cursor: pointer;
+                padding: 8px 16px;
+            }
 
-         div button:hover {
-             background-color: rgb(202, 202, 202);
-         }
+            div button:hover {
+                background-color: rgb(202, 202, 202);
+            }
 
-         table button:hover {
-             background-color: rgb(202, 202, 202);
+            table button:hover {
+                background-color: rgb(202, 202, 202);
 
-         }
-
-         div {
-             margin: auto;
-             width: 1300px;
-         }
-
-         img {
-             margin: auto;
-             height: auto;
-         }
+            }
+            img {
+                margin: auto;
+                height: auto;  
+                max-width: 100%;
+            }
+            .container {
+                max-width: 1200px;   /* largura máxima */
+                margin: 0 auto;     /* centraliza horizontalmente */
+                padding: 16px;      /* espaço interno */
+            }
+            body {
+                font-family: Arial, Sans-Serif;
+                margin: 0;
+                line-height: 1.6;   
+            }
+            .site-header {
+                background: #fff;
+                padding: 10px 20px;
+                border-bottom: 2px solid #ccc;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .nav-buttons button {
+                gap: 0px;
+                margin-bottom: 20px;
+                max-width: 1200px;
+                margin: auto;
+            }
