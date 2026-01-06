@@ -50,8 +50,8 @@
                 height: auto;  
                 max-width: 100%;
             }
-            .container {
-                max-width: 1200px;   /* largura máxima */
+            /*.container {
+                max-width: 1500px;   /* largura máxima */
                 margin: 0 auto;     /* centraliza horizontalmente */
                 padding: 16px;      /* espaço interno */
             }
